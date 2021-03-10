@@ -20,8 +20,8 @@ and it must be possible to associate the same skill with multiple superheroes.  
 <img alt="visual studio" src="https://img.shields.io/badge/-Visual%20Studio-4A2474?style=flat-square&logo=Visual%20Studio&logoColor=white" />
 <h4>Our Logical Design: </h4>
 <h4>Contributers:</h4>
-<a href="https://github.com/Ceronath"><img alt="Jordan" src="https://avatars.githubusercontent.com/u/55241443?s=400&v=4" width="50" /></a>
+<a href="https://github.com/Ceronath" target="_blank"><img alt="Jordan" src="https://avatars.githubusercontent.com/u/55241443?s=400&v=4" width="50" /></a>
 <p>Jordan Poulin</p>
-<a href="https://github.com/westonmoffat"><img alt="Weston" src="https://avatars.githubusercontent.com/u/55240685?s=460&u=4645653bcdc076b9aa78801d227c269ccc972ff4&v=4" width="50" />
+<a href="https://github.com/westonmoffat" target="_blank"><img alt="Weston" src="https://avatars.githubusercontent.com/u/55240685?s=460&u=4645653bcdc076b9aa78801d227c269ccc972ff4&v=4" width="50" />
 </a>
 <p>Weston Moffat</p>
