@@ -19,6 +19,7 @@ and it must be possible to associate the same skill with multiple superheroes.  
 <img alt="c sharp" src="https://img.shields.io/badge/-C%23-1C741A?style=flat-square&logo=C%20Sharp&logoColor=white" />
 <img alt="visual studio" src="https://img.shields.io/badge/-Visual%20Studio-4A2474?style=flat-square&logo=Visual%20Studio&logoColor=white" />
 <h4>Our Logical Design: </h4>
+<img src="https://github.com/Ceronath/CSD220_Lab5/blob/master/logical_model.PNG" />
 <h4>Contributers:</h4>
 <a target="_blank" href="https://github.com/Ceronath"><img alt="Jordan" src="https://avatars.githubusercontent.com/u/55241443?s=400&v=4" width="50" /></a>
 <p>Jordan Poulin</p>
