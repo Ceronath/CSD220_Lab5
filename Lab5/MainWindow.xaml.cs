@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Data;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -22,7 +23,7 @@ namespace Lab5
     /// </summary>
     public partial class MainWindow : Window
     {
-        static string connectionString = "server=localhost;user id=root;database=superheros";
+        static string connectionString = "server=localhost;database=superheros;uid=root;pwd=root";
 
         MySqlConnection conn = new MySqlConnection(connectionString);
 
@@ -35,9 +36,34 @@ namespace Lab5
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        
+
+        private void displayPowers_Click(object sender, RoutedEventArgs e)
+        {
+            MySqlCommand cmd = new MySqlCommand("select * from powers", conn);
+            conn.Open();
+
+            DataTable dt = new DataTable();
+            dt.Load(cmd.ExecuteReader());
+            conn.Close();
+
+            dtGrid.DataContext = dt;
+        }
+
+        private void displayHeroes_Click(object sender, RoutedEventArgs e)
         {
             
+            MySqlCommand cmd = new MySqlCommand("select * from superheros", conn);
+
+            conn.Open();
+
+            DataTable dt = new DataTable();
+            dt.Load(cmd.ExecuteReader());
+            conn.Close();
+
+            dtGrid.DataContext = dt;
         }
+
+        
     }
 }

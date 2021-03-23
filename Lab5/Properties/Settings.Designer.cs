@@ -22,17 +22,5 @@ namespace Lab5.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;database=superheros")]
-        public string connection_string {
-            get {
-                return ((string)(this["connection_string"]));
-            }
-            set {
-                this["connection_string"] = value;
-            }
-        }
     }
 }
